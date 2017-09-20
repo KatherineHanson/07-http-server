@@ -1,0 +1,30 @@
+{
+  "name": "07-http-server",
+  "version": "0.0.1",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 07: Vanilla HTTP Server ======",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "jest -i --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatherineHanson/07-http-server.git"
+  },
+  "keywords": [],
+  "author": "katherinemariehanson@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatherineHanson/07-http-server/issues"
+  },
+  "homepage": "https://github.com/KatherineHanson/07-http-server#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jest": "^21.1.0",
+    "superagent": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
