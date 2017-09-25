@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/KatherineHanson/07-http-server#readme",
   "dependencies": {
+    "cowsay": "^1.2.1",
     "dotenv": "^4.0.0",
     "jest": "^21.1.0",
     "superagent": "^3.6.0"
