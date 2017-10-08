@@ -4,6 +4,7 @@
   "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 07: Vanilla HTTP Server ======",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "jest -i --coverage"
